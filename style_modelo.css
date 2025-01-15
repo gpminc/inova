@@ -19,8 +19,8 @@ body {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-image: url(./imagens_modelo/3334896.jpg);
-    background-size: 122%;
+    background-image: url(./imagens_modelo/Design\ sem\ nome.svg);
+    background-size: 100%;
     background-position: 100%;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ body {
 .div-conteudo{
     position: relative;
     z-index: 1;
-    color: white;
+    color: black;
     height: auto;
     width: 40%;
     display: flex;
@@ -67,7 +67,11 @@ body {
 
 #div-logo{
     width: 100%;
-    margin-bottom: 5%;
+    
+}
+
+#div-logo img{
+    width: 45%;
 }
 
 #img-fundo{
@@ -414,6 +418,7 @@ a{
         flex-direction: column;
         justify-content: left;
         padding-top: 5%;
+        padding-bottom: 5%;
         
     }
     /* #segmento1{
@@ -526,8 +531,9 @@ a{
     }
 
     #segmento2{
+        display: none;
         width: 100%;
-        display: flex;
+        
         justify-content: center;
         align-items: center;
         padding: 0;
