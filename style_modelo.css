@@ -363,8 +363,20 @@ a{
     text-decoration: none;
 }
 
+
 /* Estilos para telas menores (móveis) */
 @media screen and (max-width: 768px) {
+
+    @media screen and (min-height: 550px){
+        #primeiro-bloco{
+            height: 60vh;
+        }
+    
+        #div-logo img{
+            width: 500%;
+        }
+        
+    }
     body, html{
         overflow-x: hidden;   
     }
@@ -380,7 +392,7 @@ a{
 
     .div-conteudo {
         width: 90%; 
-        height: 40vh;
+        height: 200px;
         margin: 0;
         padding-left: 5%;
         display: flex;
@@ -396,6 +408,11 @@ a{
 
     #logo{
         width: 40%;
+    }
+
+    #div-logo img{
+        width: 60%;
+        height: 100%;
     }
 
     #div-logo{
@@ -414,7 +431,7 @@ a{
 
     #primeiro-bloco{
         width: 90%;
-        height: 70vh;
+        height: 350px;
         background-image: url(./imagens_modelo/fundo\ mobile.svg);
         background-size: cover;
         background-position: 0;
