@@ -445,6 +445,7 @@ a{
     
     #segmento1{
         width: 100%;
+        height: 400px;
         padding: 0;
         display: flex;
         justify-content: center;
@@ -488,7 +489,7 @@ a{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 20vh;
+        height: 100px;
     }
 
     #div-mobile img{
