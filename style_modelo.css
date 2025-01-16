@@ -413,7 +413,7 @@ a{
     }
 
     #primeiro-bloco{
-        width: 100%;
+        width: 90%;
         height: 350px;
         background-image: url(./imagens_modelo/fundo\ mobile.svg);
         background-size: cover;
@@ -423,6 +423,7 @@ a{
         justify-content: start;
         padding-top: 5%;
         padding-left: 5%;
+        padding-right: 5%;
     }  
     
     #segmento1{
