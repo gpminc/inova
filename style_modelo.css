@@ -380,6 +380,7 @@ a{
 
     .div-conteudo {
         width: 90%; 
+        height: 40vh;
         margin: 0;
         padding-left: 5%;
         display: flex;
@@ -475,7 +476,7 @@ a{
     #div-mobile img{
         width: 50%;
         position:relative;
-        top: -70px;
+        top: -50%;
     }
 
     #segundo-bloco{
