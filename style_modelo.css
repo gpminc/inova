@@ -471,13 +471,16 @@ a{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 30vh;
+        height: 20vh;
     }
 
     #div-mobile img{
         width: 50%;
         position:relative;
         top: -50%;
+        -webkit-box-shadow: 0px 22px 54px -25px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 22px 54px -25px rgba(0,0,0,0.75);
+        box-shadow: 0px 22px 54px -25px rgba(0,0,0,0.75);
     }
 
     #segundo-bloco{
