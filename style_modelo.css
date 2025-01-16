@@ -274,7 +274,7 @@ body {
     gap: 9%;
 }
 #div-footer1 img{
-    width: 10%;
+    width: 50%;
 }
 #div-footer1 p{
     color: #666666;
@@ -307,7 +307,7 @@ footer{
 }
 
 #div-footer-info-contato p {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .div-row{
@@ -607,7 +607,7 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(./imagens_modelo/ilustracao-de-galeria-icone.png);
+        /* background-image: url(./imagens_modelo/INOVA\ -\ Logo.svg); */
         background-repeat: no-repeat;
         background-position: 100%;
         background-size: 50%;
@@ -633,6 +633,7 @@ a{
     }
     #div-informacoes ul{
         font-size: 0.6rem;
+        padding-left: 3%;
     }
 
     #terceiro-bloco{
@@ -668,7 +669,11 @@ a{
         justify-content: center;
         align-items: center;
     }
-    
+  
+    #div-footer1 img{
+        width: 50%;
+    }
+
     #div-footer2{
         width: 50%;
         display: flex;
@@ -707,7 +712,7 @@ a{
     }
 
     #div-footer-info-contato p{
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 
     .div-row{
