@@ -1,150 +1,727 @@
-<!DOCTYPE html>
-<html lang="PT-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_modelo.css">
-    <title>Inova Automação</title>
-</head>
-<body>
-    <div class="container">
-        <div id="primeiro-bloco">
-            
-            <div class="div-conteudo">
-                <div id="div-logo">
-                    <img src="./imagens_modelo/INOVA - Logo.png" alt="">
-                </div>
-                <h2>Transforme sua casa em um lar inteligente hoje!</h2>
-                <p>Otimize seu tempo, economize energia e tenha praticidade no dia a dia!</p>
-                <div class="div-btn-bloco1">
-                    <a href=""><button>FALE CONOSCO</button></a>
-                </div>
-            </div>
-        </div>
-        <div id="div-mobile">
-            <img src="./imagens_modelo/img-mobile.svg" alt="">
-        </div>
-        <div id="segundo-bloco">
-            <div id="segmento1">
-                <div id="div-titulo">
-                    <h2>INOVAÇÃO E AUTOMAÇÃO</h2>
-                    <p>
-                        Temos como objetivo configurar sistemas de automação residencial, proporcionando conforto, segurança e eficiência energética aos clientes.
-                    </p>
-                </div>
-                <div id="div-h3">
-                    <h3>Seviços</h3>
-                </div>
-                <div id="div-segmento-img">
-                    <div class="formatacao-div">
-                        <div>
-                            <img src="./imagens_modelo/cafeteira.png" alt="">
-                            <p>Integração de eletrodomésticos</p>
-                        </div>
-                        <br>
-                        <div>
-                            <img src="./imagens_modelo/alexa.png" alt="">
-                            <p>Automação com assistente</p>
-                        </div>
-                        <br>
-                        <div>
-                            <img src="./imagens_modelo/traca de porta.png" alt="">
-                            <p>Sistema de abertira de porta automática</p>
-                        </div>
-                        <br>
-                        <div>
-                            <img src="./imagens_modelo/pc.png" alt="">
-                            <p>Montagem e limpeza de computadores</p>
-                        </div>
-                        <br>
-                        
-                    </div>
-                    <div class="formatacao-div">
-                        <div class="form-div">
-                            <img src="./imagens_modelo/camera de segurança.png" alt="">
-                            <p>Câmeras de segurança</p>
-                        </div>
-                        <br>
-                        <div class="form-div">
-                            <img src="./imagens_modelo/casa.png" alt="">
-                            <p>Criação de rotinas automáticas</p>
-                        </div>
-                        <br>
-                        <div class="form-div">
-                            <img src="./imagens_modelo/lampada.png" alt="">
-                            <p>Sistema de luz inteligente</p>
-                        </div>
-                        <br>
-                        <div class="form-div">
-                            <img src="./imagens_modelo/sinal download.png" alt="">
-                            <p>Instalação de pacotes e formatação de pc</p>
-                        </div>
-                        <br>    
-                        
-                    </div>
-                </div>
-                <div class="div-btn-bloco2">
-                    <a href=""><button>FALE CONOSCO</button></a>
-                </div>
-            </div>
-            <div id="segmento2">
-                <div>
-                    <img src="./imagens_modelo/INOVA - Logo 2.svg" alt="">
-                </div>
-            </div>
-        </div>
-        <div id="terceiro-bloco">
-            <div id="div-bloco1">
-                <div id="div-informacoes">
-                    <h1>Inovação que você confia, resultados que você sente.</h1>
-                    <br>
-                    <p>Desde a iluminação automatizada até o controle total da sua casa pelo smartphone,
-                         nossa missão é tornar sua vida mais fácil e eficiente. Seja para economizar energia ou criar
-                          um ambiente mais aconchegante, estamos aqui para levar inovação ao seu lar.</p>
-                    <br>
-                    <ul>
-                        <li>
-                            Atendimento Personalizado: Cada casa é única, e nossos projetos são feitos sob medida para atender às suas necessidades.
-                        </li>
-                        <br>
-                        <li>
-                            Tecnologia de Ponta: Utilizamos apenas equipamentos de alta qualidade, garantindo desempenho e durabilidade.
-                        </li>
-                        <br>
-                        <li>
-                            Equipe Especializada: Profissionais experientes e comprometidos em entregar excelência em cada detalhe.
-                        </li>
-                        <br>
-                        <li>
-                            Garantia de Satisfação: Transformamos a automação em uma experiência simples, segura e eficiente.
-                        </li>
-                    </ul>
-                </div>
-                <div class="div-btn-bloco3">
-                    <a href=""><button>FALE CONOSCO</button></a>
-                </div>
-            </div>
-            <div id="div-bloco2">
-                <h2>SUA LOGO AQUI</h2>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <div id="div-footer1">
-           <img src="./imagens_modelo/INOVA - Logo-black.svg" alt="" id="img-logo">
-        </div>
-        <div id="div-footer2">
-            <div id="div-footer-info-contato">
-                <div class="div-row">
-                    <a href="https://www.instagram.com/inova.automacao_/">
-                        <div>
-                            <img src="./imagens_modelo/Insta.png" alt="" id="insta">
-                            <p>@inova.automacao_</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+@font-face{
+    font-family: "Arboria";
+    src: url(./Fonte/Arboria-Book.ttf);
+}
+
+*{
+    margin: 0;
+   font-family: Arboria;
+}
+
+body {
+    font-family: Arboria;
+    height: 100vh;
+    margin: 0;
+}
+
+#primeiro-bloco{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(./imagens_modelo/Design\ sem\ nome.svg);
+    background-size: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}  
+
+.div-conteudo{
+    position: relative;
+    z-index: 1;
+    color: black;
+    height: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-left: 5%;
+}
+
+.div-conteudo h2{
+    font-size: 2.5rem;
+}
+
+.div-conteudo p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.div-conteudo button{
+    background-color: white;
+    color: rgb(20, 93, 160);
+    border: 0px;
+    height: 5vh;
+    border-radius: 8px;
+    width: 53%;
+    font-size: 0.8rem;
+}
+
+.div-conteudo button:hover{
+    background-color: white;
+    color: #23254D;
+}
+
+#div-logo{
+    width: 100%;
+    
+}
+
+#div-logo img{
+    width: 45%;
+}
+
+#img-fundo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#logo{
+    width: 30%;
+}
+
+.div-btn-bloco1{
+    width: 100%;
+    margin-top: 5%;
+}
+
+#segundo-bloco{
+    display: flex;
+    flex-direction: row;
+}
+
+#segmento1{
+    width: 50%;
+    padding: 6.5%;
+}
+
+#segmento1 p{
+    color: #666666;
+}
+
+#div-mobile{
+    display: none;
+}
+
+#segmento2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 6.5%;
+}
+
+#segmento2 img{
+    width: 80%;
+}
+
+
+#div-segmento-img{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    align-items: center;
+    gap: 10%;
+    margin-left: 8%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#div-h3{
+    margin-left: 8%;
+    font-size: 1.2rem;
+}
+
+.formatacao-div{
+    width: 100%;
+    gap: 80%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formatacao-div div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+
+.formatacao-div img{
+    width: 30%;
+}
+
+#segmento1 h2{
+    font-size: 1.8rem;
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+
+#div-titulo p{
+    font-size: 1rem;
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+
+.div-btn-bloco2{
+    width: 100%;
+
+}
+
+.div-btn-bloco2 button{
+    background-color: rgb(20, 93, 160);
+    color: white;
+    border: 0px;
+    height: 5vh;
+    border-radius: 8px;
+    width: 56%;
+    margin-left: 8%;
+    margin-top: 5%;
+    font-size: 0.8rem;
+}
+
+.div-btn-bloco2 button:hover{
+    background-color: #0c0e2e;
+    
+}
+
+#terceiro-bloco {
+    background: rgb(140,58,180);
+    background: linear-gradient(90deg, rgba(140,58,180,1) 0%, rgba(9,47,128,1) 50%, rgba(33,39,214,1) 100%);
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#div-bloco1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-informacoes{
+    width: 72%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+
+#div-informacoes p{
+    font-size: 18px;
+}
+#div-informacoes ul{
+    font-size: 18px;
+}
+#div-bloco2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#div-bloco2 img{
+    width: 65%;
+}
+
+.div-btn-bloco3{
+    width: 64%;
+}
+
+.div-btn-bloco3 button{
+    background-color: white;
+    color: rgb(20, 93, 160);
+    border: 0px;
+    height: 5vh;
+    border-radius: 8px;
+    width: 65%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 0.8rem;
+}
+
+.div-btn-bloco3 button:hover{
+    background-color: #0c0e2e;
+}
+
+#div-footer1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9%;
+}
+#div-footer1 img{
+    width: 50%;
+}
+#div-footer1 p{
+    color: #666666;
+}
+
+
+#div-footer2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+#div-footer-info-contato{
+    width: 70%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-footer-info-contato p {
+    font-size: 20px;
+}
+
+.div-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+}
+
+.div-row div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row; 
+    width: 80%;
+    gap: 10px;
+}
+.div-row a{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    width: 30%;
+    gap: 10px;
+}
+
+#img-local{
+    width: 20%;
+}
+#insta{
+    width: 20%;
+}
+#face{
+    width: 20%;
+}
+#email{
+    width: 20%;
+}
+
+#div-email{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    width: 30%;
+    gap: 10px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* Estilos para telas menores (móveis) */
+@media screen and (max-width: 768px) {
+
+    @media screen and (min-height: 550px){
+        #primeiro-bloco{
+            height: 60vh;
+        }
+    
+        #div-logo img{
+            width: 500%;
+        }
+        
+    }
+    body, html{
+        overflow-x: hidden;   
+    }
+
+    #img-fundo{
+        width: 150%;
+        position: absolute;
+        top: 0;
+        left: -40%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .div-conteudo {
+        width: 90%; 
+        height: 200px;
+        margin: 0;
+        padding-left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .div-conteudo h2{
+        font-size: 23px;
+    }
+    .div-conteudo p{
+        font-size: 0.9rem;
+    }
+
+    #logo{
+        width: 40%;
+    }
+
+    #div-logo img{
+        width: 60%;
+        height: 100%;
+    }
+
+    #div-logo{
+        width: 100%;
+    }
+
+    .div-conteudo button{
+        background-color: white;
+        color: rgb(20, 93, 160);
+        border: 0px;
+        height: 3vh;
+        border-radius: 8px;
+        width: 50%;
+        font-size: 0.6rem;
+    }
+
+    #primeiro-bloco{
+        width: 90%;
+        height: 350px;
+        background-image: url(./imagens_modelo/fundo\ mobile.svg);
+        background-size: cover;
+        background-position: 0;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: start;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }  
+    
+    #segmento1{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: left;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        
+    }
+    /* #segmento1{
+        width: 20%;
+        height: 85vh;
+        padding: 6.5%;
+        border: 1px solid;
+    } */
+    
+    #segmento1 h2{
+        font-size: 1.5rem;
+        margin-bottom: 5%;
+        margin: 0;
+    }
+
+    #div-titulo{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        
+    }
+
+    #div-titulo p{
+        font-size: 0.9rem;
+        margin: 0;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #div-mobile{
+        display:block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+
+    #div-mobile img{
+        width: 50%;
+        position:relative;
+        top: -50%;
+        -webkit-box-shadow: 0px 22px 54px -25px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 22px 54px -25px rgba(0,0,0,0.75);
+        box-shadow: 0px 22px 54px -25px rgba(0,0,0,0.75);
+    }
+
+    #segundo-bloco{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #div-segmento-img{
+        display: flex;
+        flex-direction: row;
+        width: 77%;
+        align-items: center;
+        gap: 5%;
+        margin: 0;
+        margin-top: 5%;
+    }
+    /* #div-segmento-img{
+        display: flex;
+        flex-direction: row;
+        width: 92%;
+        align-items: center;
+        height: 35vh; 
+        gap: 5%;
+        margin-left: 8%;
+    } */
+    #div-h3{
+        width: 80%;
+        margin: 0;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: left;
+    }
+    /* #div-h3{
+        margin-left: 8%;
+        font-size: 13px;
+    } */
+    .formatacao-div{
+        width: 50%;
+        gap: 80%;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formatacao-div img{
+        width: 20%;
+    }
+    /* .formatacao-div img{
+        width: 40%;
+    } */
+    .formatacao-div p{
+        font-size: 0.8rem;
+    }
+    /* .formatacao-div p{
+        font-size: 6px;
+    } */
+    .formatacao-div div{
+        height: 5vh;
+        width: 100%;
+    }
+    /* .formatacao-div div{
+        height: 4vh;
+    } */
+
+    .div-btn-bloco2{
+        width: 80%;
+    }
+
+    .div-btn-bloco2 button{
+        background-color: rgb(20, 93, 160);
+        color: white;
+        border: 0px;
+        height: 3vh;
+        border-radius: 8px;
+        width: 50%;
+        margin: 0;
+        margin-top: 8%;
+        font-size: 0.6rem;
+    }
+
+    #segmento2{
+        display: none;
+        width: 100%;
+        
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    #segmento2 img{
+        width: 75%;
+    }
+    #segmento2 div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #div-bloco1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-image: url(./imagens_modelo/INOVA\ -\ Logo.svg); */
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: 50%;
+    }
+    
+    #div-informacoes{
+        width: 80%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        gap: 10%;
+        margin: 0;
+    }
+
+    #div-informacoes h1{
+        font-size: 1.3rem;
+    }
+    
+    #div-informacoes p{
+        font-size: 0.75rem;
+        
+    }
+    #div-informacoes ul{
+        font-size: 0.7rem;
+        padding-left: 3%;
+    }
+
+    #terceiro-bloco{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #div-bloco2{
+        display: none;
+        width: 0%;
+    }
+    
+    #div-bloco2 img{
+        width: 100%;
+    }
+    
+    .div-btn-bloco3{
+        width: 80%;
+    }
+
+    .div-btn-bloco3 button{
+        background-color: white;
+        color: rgb(20, 93, 160);
+        border: 0px;
+        height: 3vh;
+        border-radius: 8px;
+        width: 50%;
+        font-size: 0.6rem;
+    }
+
+    #div-footer1{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #div-footer2{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+
+    #div-footer-info-contato {
+        width: 90%;
+    }
+
+    #div-footer1{
+        width: 50%;
+    }
+
+    #div-footer1 img{
+        width: 70%;
+    }
+
+    #div-footer1 p{
+        font-size: 1.9vw;
+    }
+
+    #div-footer2 img{
+        width: 14px;
+        height: 14px;
+    }
+
+    #div-footer-info-contato p{
+        font-size: 3vw;
+    }
+
+    .div-row{
+        height: 3.5vh;
+    }
+   
+    .div-row div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        gap: 1px;
+    }
+  
+}
